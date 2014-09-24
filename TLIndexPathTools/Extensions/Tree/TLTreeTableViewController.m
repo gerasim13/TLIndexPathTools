@@ -116,7 +116,7 @@
         [indexPaths addObject:childIndexPath];
     }
     if ([indexPaths count] > 1) {
-        [self.tableView optimizeScrollPositionForIndexPaths:indexPaths options:0 animated:YES];
+        [self.tableView optimizeScrollPositionForIndexPaths:indexPaths options:0 topInset:0 animated:YES];
     }
 }
 
